@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bracelet Swipe Shop</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="login">
+    <h2>Login</h2>
+    <input type="text" placeholder="Name" id="name"/>
+    <input type="email" placeholder="Gmail" id="email"/>
+    <input type="text" placeholder="Phone Number" id="phone"/>
+    <input type="text" placeholder="Address" id="address"/>
+    <button onclick="startApp()">Enter</button>
+  </div>
+
+  <div id="app" style="display:none;">
+    <h2>Swipe Bracelets</h2>
+    <div id="bracelet-container"></div>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

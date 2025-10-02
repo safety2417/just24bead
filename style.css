@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+#bracelet-container img {
+  width: 300px;
+  height: auto;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+}
